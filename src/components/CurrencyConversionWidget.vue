@@ -1,6 +1,6 @@
 <template>
   <div class="conversion-widget">
-    <input type="text">
+    <input type="number" min="0">
     <select name="currencies" v-model="selectedCurrency">
       <template v-if="currencies">
         <option 
@@ -34,7 +34,8 @@ export default {
 
   data() {
     return {
-      selectedCurrency: this.defaultSelectedValue
+      selectedCurrency: this.defaultSelectedValue,
+
     }
   }
 }
