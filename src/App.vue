@@ -32,7 +32,7 @@ export default {
 </script>
 
 <template>
-  <h1>ciao</h1>
+  <h1>Currency boolverter</h1>
   <CurrencyConversionWidget :currencies="currencies" :defaultSelectedValue="'EUR'"/>
   <CurrencyConversionWidget :currencies="currencies" :defaultSelectedValue="'USD'"/>
 </template>
